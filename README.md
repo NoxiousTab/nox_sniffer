@@ -14,7 +14,7 @@ make
 ## Run
 
 ```bash
-sudo ./network-sniffer
+sudo ./nox_sniffer -h
 ```
 
 **Note:** Root privileges may be required for packet capture.
