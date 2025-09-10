@@ -6,6 +6,8 @@ Tested on WSL (Kali) and Linux.
 ## Build
 
 ```bash
+sudo apt update
+sudo apt install build-essential libpcap-dev
 make
 ```
 
