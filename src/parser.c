@@ -9,10 +9,7 @@
 void parse_packet(const struct pcap_pkthdr *header, const u_char *packet) {
 	// we need an ethernet header..
 	struct ether_header *eth = (struct ether_header *)packet;
-	/*printf("Ethernet: Src MAC: %s, Dst MAC: %s\n",
-		ether_ntoa((struct ether_addr *)eth->ether_shost),
-		ether_ntoa((struct ether_addr *)eth->ether_dhost));
-	*/
+
 	// now we have to check for ip packet and if yes then check for tcp/udp packet
 
 	// checking for ip packet
