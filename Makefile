@@ -10,4 +10,3 @@ nox_sniffer: $(SRC)
 
 clean:
 	rm -f nox_sniffer src/*.o
-

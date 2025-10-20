@@ -1,7 +1,7 @@
 # Packet Sniffer in C using libpcap
 
 A modular network packet sniffer built in C using libpcap.
-Tested on WSL (Kali) and Linux.
+Tested on WSL and Linux.
 
 ## Build
 
